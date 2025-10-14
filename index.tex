@@ -243,7 +243,7 @@ encoding. You'll answer two key discussion questions by adding narrative
 to a pre-built analysis and posting those answers to your GitHub Pages
 site as a rendered HTML document.
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, opacityback=0, titlerule=0mm, colbacktitle=quarto-callout-warning-color!10!white, opacitybacktitle=0.6, arc=.35mm, left=2mm, colframe=quarto-callout-warning-color-frame, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{⚠️ AI Partnership Required}, coltitle=black, rightrule=.15mm, leftrule=.75mm, toprule=.15mm, colback=white, bottomrule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacityback=0, rightrule=.15mm, colbacktitle=quarto-callout-warning-color!10!white, toprule=.15mm, coltitle=black, titlerule=0mm, breakable, bottomrule=.15mm, bottomtitle=1mm, toptitle=1mm, leftrule=.75mm, colframe=quarto-callout-warning-color-frame, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{⚠️ AI Partnership Required}, arc=.35mm, opacitybacktitle=0.6, colback=white]
 
 This challenge pushes boundaries intentionally. You'll tackle problems
 that normally require weeks of study, but with Cursor AI as your partner
@@ -277,7 +277,7 @@ impurity (or improving prediction accuracy) across all splits in the
 tree. It's a key metric for understanding which variables matter most
 for your predictions.
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, opacityback=0, titlerule=0mm, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, arc=.35mm, left=2mm, colframe=quarto-callout-important-color-frame, bottomtitle=1mm, toptitle=1mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{🎯 The Key Insight: Encoding Matters for Interpretability}, coltitle=black, rightrule=.15mm, leftrule=.75mm, toprule=.15mm, colback=white, bottomrule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, opacityback=0, rightrule=.15mm, colbacktitle=quarto-callout-important-color!10!white, toprule=.15mm, coltitle=black, titlerule=0mm, breakable, bottomrule=.15mm, bottomtitle=1mm, toptitle=1mm, leftrule=.75mm, colframe=quarto-callout-important-color-frame, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{🎯 The Key Insight: Encoding Matters for Interpretability}, arc=.35mm, opacitybacktitle=0.6, colback=white]
 
 \textbf{The problem:} When we encode categorical variables as numerical
 values (like 1, 2, 3, 4\ldots), decision trees treat them as if they
@@ -491,14 +491,12 @@ zipCode}\label{tree-visualization-categorical-zipcode}
 \subsubsection{Feature Importance: Categorical
 zipCode}\label{feature-importance-categorical-zipcode}
 
-\{.panel-tabset\}
-
 \subsubsection{Python}\label{python-5}
 
 \pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/importance-plot-cat-python-output-1.pdf}}
 
-\subsubsection{Question 1\{\#sec-Question 1\}
-:}\label{question-1sec-question-1}
+\subsubsection{Question 1\{\#sec-introduction\}
+:}\label{question-1sec-introduction}
 
 Zip Codes should always be modeled as a categorical variable because the
 numbers don't mean anything. This isn't something our model understands
@@ -514,8 +512,8 @@ but anything that it doesn't understand, it will not be able to adapt to
 understand it. We have to ensure the input is something the model can
 interpret properly and give a good output.
 
-\subsubsection{Question 2 \{\#sec-Question 2\}
-:}\label{question-2-sec-question-2}
+\subsubsection{Question 2 \{\#sec-introduction\}
+:}\label{question-2-sec-introduction}
 
 The language that does a better job modeling after we turn zip code into
 a categorical variable is R. The issue we find within python is that,

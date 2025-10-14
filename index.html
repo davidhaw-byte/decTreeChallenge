@@ -293,12 +293,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="question-1sec-question-1" class="level2" data-number="1.10">
-<h2 data-number="1.10"><span class="header-section-number">1.10</span> Question 1{#sec-Question 1} :</h2>
+<section id="sec-question-1" class="level2" data-number="1.10">
+<h2 data-number="1.10"><span class="header-section-number">1.10</span> Question 1</h2>
 <p>Zip Codes should always be modeled as a categorical variable because the numbers don’t mean anything. This isn’t something our model understands and when it is numerical it will most likely misinterpret the data. Typically it causes the model to view the higher numerical zip code as more valuable or better than the lower numerical zip code which doesn’t represent the codes correctly. That’s why it is important to catagorize these zip codes, as having a different zip code may affect the price of a house, but it won’t have anything to do with the number. This goes for all catagorical data, as they need to be properly handled so we can understand how they affect our model. The model is good at what it does but anything that it doesn’t understand, it will not be able to adapt to understand it. We have to ensure the input is something the model can interpret properly and give a good output.</p>
 </section>
-<section id="question-2-sec-question-2" class="level2" data-number="1.11">
-<h2 data-number="1.11"><span class="header-section-number">1.11</span> Question 2 {#sec-Question 2} :</h2>
+<section id="sec-question-2" class="level2" data-number="1.11">
+<h2 data-number="1.11"><span class="header-section-number">1.11</span> Question 2</h2>
 <p>The language that does a better job modeling after we turn zip code into a categorical variable is R. The issue we find within python is that, “However, the scikit-learn implementation does not support categorical variables for now.”, as taken from the scikit-learn website’s user guide on decision trees. Although Rpart, the function we use in R, does support this which is why we see the high feature importance of Zip Code once it becomes a catagorical variable. We can see in python’s feature importance that it just disregards the Zip Code variable giving us a less accurate model than R. So when running decision tree’s, especially when our data set has categorical variables, we want to use R if possible to get the best possible model.</p>
 </section>
 </div>
